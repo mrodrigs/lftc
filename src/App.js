@@ -1,6 +1,7 @@
 import {  useEffect } from 'react';
 import WebFont from 'webfontloader';
 
+import { Header } from './components';
 import AppRoutes from './routes';
 import GlobalStyles from './styles/global';
 
@@ -23,6 +24,7 @@ function App() {
   return (
     <>
       <GlobalStyles />
+      <Header />
       <AppRoutes />
     </>
   );

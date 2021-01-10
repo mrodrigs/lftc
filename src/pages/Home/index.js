@@ -1,12 +1,19 @@
 import React from 'react';
+import {useHistory} from 'react-router-dom';
 
-// import { Container } from './styles';
+import { Button, Card, Container } from './styles';
 
 function Home() {
+  const history = useHistory();
+
   return (
-    <div>
-      Hello
-    </div>
+    <Container>
+      <Card>
+        <Button onClick={() => history.push('/regex')}>
+          Expressões Regulares (ER)
+        </Button>
+      </Card>
+    </Container>
   );
 }
 
