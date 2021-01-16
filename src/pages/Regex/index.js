@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { Card, Container, Input, Title } from './styles';
+import { Card, Container, Input, Text, Title } from './styles';
 
 function Regex() {
   const [isOneValid, setIsOneValid] = useState(null);
@@ -56,6 +56,22 @@ function Regex() {
           type="text"
           valid={isTwoValid}
         />
+        <Title>Instruções</Title>
+        <Text>
+          <strong>^</strong> - Início da expressão
+        </Text>
+        <Text>
+          <strong>$</strong> - Fim da expressão
+        </Text>
+        <Text>
+          <strong>|</strong> - União
+        </Text>
+        <Text>
+          <strong>.</strong> - Concatenação
+        </Text>
+        <Text>
+          <strong>*</strong> - Fechamento
+        </Text>
       </Card>
     </Container>
   );

@@ -45,6 +45,10 @@ export const Input = styled.input`
   width: 100%;
 `;
 
+export const Text = styled.span`
+  font-size: 14px;
+`;
+
 export const Title = styled.span`
   font-size: 18px;
   font-weight: bold;

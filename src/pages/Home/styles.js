@@ -6,6 +6,7 @@ export const Button = styled.button`
   border: 1px solid #bdbdbd;
   border-radius: 5px;
   height: 40px;
+  margin-bottom: 10px;
   transition: ease all .3s;
   width: 200px;
 

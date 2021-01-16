@@ -12,6 +12,9 @@ function Home() {
         <Button onClick={() => history.push('/regex')}>
           Expressões Regulares (ER)
         </Button>
+        <Button onClick={() => history.push('/auto')}>
+          Autômatos Finitos
+        </Button>
       </Card>
     </Container>
   );
